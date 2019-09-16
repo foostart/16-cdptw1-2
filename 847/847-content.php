@@ -22,15 +22,15 @@
                         <div class="row">
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormName">Your Name:</label>
-                                <input maxlength = "30" type="text" class="form-control " placeholder="Ban hay nhap your name chi 30 ky tu....."><p class="alert-form-info"></p>
+                                <input maxlength = "30" type="text" class="form-control" placeholder="Ban hay nhap your name chi 30 ky tu....."><p class="alert-form-info"></p>
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormEmail">Email:</label>
-                                <input maxlength = "30" type="email" class="form-control " placeholder="Ban hay nhap email chi 30 ky tu....."><p class="alert-form-info"></p>
+                                <input maxlength = "30" type="email" class="form-control" placeholder="Ban hay nhap email chi 30 ky tu....."><p class="alert-form-info"></p>
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormTelephone">Phone Number:</label>
-                                <input maxlength = "10" type="tel" class="form-control " placeholder="Ban hay nhap phone number chi 10 ky tu....."><p class="alert-form-info"></p>
+                                <input maxlength = "10" type="tel" class="form-control" placeholder="Ban hay nhap phone number chi 10 ky tu....."><p class="alert-form-info"></p>
                             </div>
                         </div>
                         <div class="row">
