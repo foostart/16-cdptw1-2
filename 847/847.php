@@ -17,8 +17,6 @@
      $less->compileFile('./less/type-15.less', 'css/type-9.css');
     
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -28,11 +26,11 @@
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">       
         <link href="<?php echo $url_path ?>/css/type-15.css" rel="stylesheet" type="text/css" />
         <!--Ket Noi File Less -->
-
     </head>
 
     <body>
+		<form action="847-send.php" method="post">
         <?php include $dir_block.'/847-content.php'; ?>
-
+		</form>
     </body>
 </html>

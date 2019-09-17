@@ -9,4 +9,22 @@ $(document).ready(function () {
                 $(this).toggleClass('open');
             }
     );
+	var input = document.querySelector('#Clear');
+	var yourname = document.querySelector('#name');
+	var email = document.querySelector('#email');
+	var tel = document.querySelector('#tel');
+	var mess = document.querySelector('#mess');
+	input.addEventListener('click', function () {
+		yourname.value = '';
+		email.value = '';
+		tel.value = '';
+		mess.value = '';
+	}, false);
+	function email($str) {
+		return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
+	}
+	var span = document.createElement('span');
+	if (id == 'tel' && isNaN(value) == true) {
+            span.innerHTML = 'Số điện thoại phải là kiểu số';
+    }
 });
