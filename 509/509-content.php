@@ -3,7 +3,7 @@
 <html>
 
     <head>
-        <title></title>
+        <title>509</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -79,7 +79,7 @@
                                     <ul class="nav navbar-nav">
                                         <!--HOME-->
                                         <li class="dropdown mega-dropdown">
-                                            <a href="#" data-toggle="dropdown" data-toggle="dropdown">Home <span class="caret"></span></a>
+                                            <a href="#" data-toggle="dropdown">Home <span class="caret"></span></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#"><i class="fa fa-caret-right"> Fade Slider</i></a></li>
                                                 <li><a href="#"><i class="fa fa-caret-right"> Aviacordion</i></a></li>
