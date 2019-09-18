@@ -114,47 +114,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="col-md-3 col-sm-5">
-                                <div class="isotope-item" >
-                                    <div class="box image-scale">
-                                        <img  src="images/6.jpg" alt="" style="display: block;">
-                                        <div class="caption scale-caption">
-                                            <a href="#">
-                                                <h1>Copper Base</h1>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 col-sm-5">
-                                <div class="isotope-item">
-                                    <div class="box image-scale">
-                                        <img src="images/7.jpg" alt=""  style="display: block;">
-                                        <div class="caption scale-caption">
-                                            <a href="#">
-                                                <h1>Food Service</h1>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3 col-sm-5">
-                                <div class="isotope-item">                                           
-                                    <div class="box image-scale">
-                                        <img src="images/8.jpg" alt=""  style="display: block;">
-                                        <div class="caption scale-caption">
-                                            <a href="#">
-                                                <h1>Steel Pipes</h1>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
