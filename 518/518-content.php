@@ -37,9 +37,8 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-6 col-sm-4 col-xs-4">
                     <ul class="nav navbar-nav navbar-right">
                         <!-- menu right-->
-                        <li >
+                        <li>
                             <a href="#"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
-
                             <ul class="dropdown-menu">
                                 <li> 
                                     <div class="icon">
@@ -58,13 +57,13 @@ $url_path = str_replace('\\', '/', $url_path);
                         <!-- menu right-->
                         <!-- DropDown-->
                         <li >
-                            <a href="#"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Currency</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">BRL</a></li>
-                                <li><a href="#">GBP</a></li>
-                                <li><a href="#">EUR</a></li>
-                                <li><a href="#">CNY</a></li>
-                            </ul>
+							<select name="">
+								<option selected="selected">Currency:</option>
+								<option href="#">Currency:BRL</option>
+								<option href="#">Currency:GBP</option>
+                                <option href="#">Currency:EUR</option>
+                                <option href="#">Currency:CNY</option>
+							</select>
                         </li>
                     </ul>
                 </div>
