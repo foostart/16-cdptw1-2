@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="portfolioFilter ">
                         <ul class="nav nav-tabs">
                             <li class="active">
-                                <a href="#0" class="btn-outline"> All</a>
+                                <a href="#0" class="btn-outline">All</a>
                             </li> 
                             <li>
                                 <a href="#1" class="btn-outline1">Bars</a>
