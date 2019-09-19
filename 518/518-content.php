@@ -37,36 +37,27 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-6 col-sm-4 col-xs-4">
                     <ul class="nav navbar-nav navbar-right">
                         <!-- menu right-->
-                        <li>
-                            <a href="#"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Language</a>
-                            <div class="dropdown-menu">
-                                <li> 
-                                    <div class="icon">
-                                        <span class="label dropdown-icon bg1" >&nbsp;</span>
-                                        <a href="#">English</a>
-                                    </div>
-                                </li>
-                                <li> 
-                                    <div class="icon">
-                                        <span class="label dropdown-icon bg2" >&nbsp;</span>
-                                        <a href="#">German</a>
-                                    </div>
-                                </li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Language 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">English</a>
+								<a href="#">German</a>
                             </div>
-                        </li>
+                        </div> 
                         <!-- menu right-->
                         <!-- DropDown-->
-						 <div class="dropdown">
-                                    <button class="dropbtn"> Currency 
-                                        <i class="fa fa-caret-down"></i>
-                                    </button>
-                                    <div class="dropdown-content">
-                                        <a href="#">BRL</a>
-                                        <a href="#">GBP</a>
-                                        <a href="#">EUR</a>
-										<a href="#">CNY</a>
-                                    </div>
-                                </div> 
+						<div class="dropdown">
+                            <button class="dropbtn">Currency:
+							
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">BRL</a>
+                                <a href="#">GBP</a>
+                            </div>
+                        </div>  
                     </ul>
                 </div>
             </div>
@@ -98,8 +89,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </button>
                                     <div class="dropdown-content">
                                         <a href="#">Link 1</a>
-                                        <a href="#">Link 2</a>
-                                        <a href="#">Link 3</a>
                                     </div>
                                 </div> 
                                 <a href="#about">About</a>

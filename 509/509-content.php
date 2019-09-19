@@ -28,7 +28,7 @@
                     <div class="cnheader">
                         <div class="row">
                             <div class="logo col-md-6 col-sm-6 col-xs-12 ">
-                                <a href="type-3.php">
+                                <a href="#">
                                     <img src="images/skin-minimal/logo.png" alt="" />
                                 </a>
                             </div>
@@ -102,7 +102,7 @@
                                             <ul class="dropdown-menu mega-dropdown-menu">
                                                 <li class="col-sm-3 fix-col">
                                                     <h4 class="cufon_headings">–</h4>
-                                                    <a href="http://www.kriesi.at/themes/abundance/product-category/photography/">
+                                                    <a href="#">
                                                         <img src="images/menu/featured2-210x100.jpg" alt="" />
                                                         <span class="image_overlay_effect external_image">
                                                             <span class="image_overlay_effect_inside"></span>
@@ -111,7 +111,7 @@
                                                 </li>
                                                 <li class="col-sm-3 fix-col">
                                                     <h4 class="cufon_headings">–</h4>
-                                                    <a href="http://www.kriesi.at/themes/abundance/product-category/photography/">
+                                                    <a href="#">
                                                         <img src="images/menu/featured1-210x100.jpg" alt="" />
                                                         <span class="image_overlay_effect external_image">
                                                             <span class="image_overlay_effect_inside"></span>
@@ -120,7 +120,7 @@
                                                 </li>
                                                 <li class="col-sm-3 fix-col">
                                                     <h4 class="cufon_headings">–</h4>
-                                                    <a href="http://www.kriesi.at/themes/abundance/product-category/photography/">
+                                                    <a href="#">
                                                         <img src="images/menu/featured3-210x100.jpg" alt="" />
                                                         <span class="image_overlay_effect external_image">
                                                             <span class="image_overlay_effect_inside"></span>
@@ -130,7 +130,7 @@
                                                 </li>
                                                 <li class="col-sm-3 fix-col">
                                                     <h4 class="cufon_headings">–</h4>
-                                                    <a href="http://www.kriesi.at/themes/abundance/product-category/photography/">
+                                                    <a href="#">
                                                         <img src="images/menu/featured_4-210x100.jpg" alt="" />
                                                         <span class="image_overlay_effect external_image">
                                                             <span class="image_overlay_effect_inside"></span>
