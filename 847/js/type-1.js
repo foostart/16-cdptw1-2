@@ -20,11 +20,14 @@ $(document).ready(function () {
 		tel.value = '';
 		mess.value = '';
 	}, false);
+	$("#Send").click(function(){
+		alert("Thong tin da duoc luu!");
+	});
 	function email($str) {
 		return (!preg_match("/^([a-z0-9\+_\-]+)(\.[a-z0-9\+_\-]+)*@([a-z0-9\-]+\.)+[a-z]{2,6}$/ix", $str)) ? FALSE : TRUE;
 	}
 	var span = document.createElement('span');
 	if (id == 'tel' && isNaN(value) == true) {
-            span.innerHTML = 'Số điện thoại phải là kiểu số';
+            span.innerHTML = 'Phone number not number!';
     }
 });

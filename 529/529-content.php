@@ -7,7 +7,8 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
+<script language="JavaScript">
+</script>
 <div class="type_667 ">
     <div class="container column-wrapper-container">
         <div class="row">
@@ -19,7 +20,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="portfolioFilter ">
                         <ul class="nav nav-tabs">
                             <li class="active">
-                                <a href="#0" class="btn-outline">All</a>
+                                <a href="#0" class="btn-outline" >All</a>
                             </li> 
                             <li>
                                 <a href="#1" class="btn-outline1">Bars</a>

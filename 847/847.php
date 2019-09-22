@@ -29,6 +29,8 @@
     </head>
 
     <body>
+		<form action="847.php" method="post">
         <?php include $dir_block.'/847-content.php'; ?>
+		</form>
     </body>
 </html>
