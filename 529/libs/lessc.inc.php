@@ -3278,7 +3278,6 @@ class lessc_parser {
 			$this->seek($s);
 			return false;
 		}
-
 		$guards = array();
 
 		while ($this->guardGroup($g)) {

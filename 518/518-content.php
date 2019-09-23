@@ -37,27 +37,17 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-6 col-sm-4 col-xs-4">
                     <ul class="nav navbar-nav navbar-right">
                         <!-- menu right-->
-                        <div class="dropdown">
-                            <button class="dropbtn">Language 
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">English</a>
-								<a href="#">German</a>
-                            </div>
-                        </div> 
+                        <select>
+							<option>Language</option>
+							<option>English </option>
+							<option>German</option>
+						 </select>
                         <!-- menu right-->
-                        <!-- DropDown-->
-						<div class="dropdown">
-                            <button class="dropbtn">Currency:
-							
-                                <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                                <a href="#">BRL</a>
-                                <a href="#">GBP</a>
-                            </div>
-                        </div>  
+                        <select>
+							<option>Currency:</option>
+							<option>BRL</option>
+							<option>GBP</option>
+						 </select>
                     </ul>
                 </div>
             </div>
@@ -85,11 +75,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <a href="#news">News</a>
                                 <div class="dropdown">
                                     <button class="dropbtn">Dropdown 
-                                        <i class="fa fa-caret-down"></i>
                                     </button>
-                                    <div class="dropdown-content">
-                                        <a href="#">Link 1</a>
-                                    </div>
                                 </div> 
                                 <a href="#about">About</a>
                                 <a href="#" class="icon" onclick="myFunction()">&#9776;</a>

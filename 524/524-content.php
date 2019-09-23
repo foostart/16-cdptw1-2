@@ -71,31 +71,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                         <span class="caret"></span>
                                                     </a>
                                                     <ul class="dropdown-menu">
-                                                        <li class="current-menu-item item1">
-                                                            <a class="s1" href="#home">Home</a>
-                                                            <a class="caret-click"></a>
-                                                        </li>
                                                         <li>
-                                                            <a href="#homev2">Home v2</a>
-                                                            <a class="caret-click"></a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#index1">Index Header Style 01</a>
+                                                            <a href="#homev2">Home</a>
                                                             <a class="caret-click"></a>
                                                         </li>
                                                     </ul>
                                                 </li>
                                                 <li class=" menu-item-has-children">
                                                 <a href="#" class=" dropdown-toggle">Company Profile</a>
-                                                <a class="caret-click" href="#item"> 
-                                                    <span class="caret"></span>
                                                 </a>
                                                 
                                             </li>
                                             <li class=" menu-item-has-children">
-                                                <a href="#" class=" dropdown-toggle">Product</a>
-                                                <a class="caret-click" data-toggle="dropdown"> 
-                                                    <span class="caret"></span>
+                                                <a href="#" class=" dropdown-toggle">Product</a> 
                                                 </a>
                                                
                                             </li>
@@ -115,48 +103,16 @@ $url_path = str_replace('\\', '/', $url_path);
                                                                 <a href="#">With Right Sidebar</a>
                                                                 <a class="caret-click"></a>
                                                             </li>
-                                                            <li>
-                                                                <a href="#">With Left Sidebar</a>
-                                                                <a class="caret-click"></a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">With No Sidebar</a>
-                                                                <a class="caret-click"></a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class=" menu-item-has-children">
-                                                        <a href="#" class="dropdown-toggle">Single Layout</a>
-                                                        <a class="caret-click" href="#"> 
-                                                            <span class="caret"></span>
-                                                        </a>
-                                                        <ul class="dropdown-menu">
-                                                            <li>
-                                                                <a href="#">No SideBar</a>
-                                                                <a class="caret-click"></a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">With Left Sidebar</a>
-                                                                <a class="caret-click"></a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="#">With Right Sidebar</a>
-                                                                <a class="caret-click"></a>
-                                                            </li>
                                                         </ul>
                                                     </li>
                                                 </ul>
                                             </li>
                                             <li class=" menu-item-has-children">
                                                 <a href="#" class=" dropdown-toggle">Page</a>
-                                                <a class="caret-click" href="#"> 
-                                                    <span class="caret"></span>
                                                 </a>
                                             </li>
                                             <li class=" menu-item-has-children">
                                                 <a href="#" class=" dropdown-toggle">Service</a>
-                                                <a class="caret-click" href="#"> 
-                                                    <span class="caret"></span>
                                                 </a>
                                             </li>
                                             <li>

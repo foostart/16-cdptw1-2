@@ -91,6 +91,7 @@
 }
 .type-647 .menu .login-shopping li a {
   color: #fff;
+  text-decoration: none;
 }
 .type-647 .menu .dropdown-menu li>a {
   color: #333 !important;
@@ -123,6 +124,7 @@
   display: block;
   color: #222;
   padding: 3px 5px;
+  text-decoration: none;
 }
 .type-647 .menu .cart_dropdown_first {
   height: 47px;

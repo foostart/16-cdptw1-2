@@ -19,25 +19,25 @@
                         <div class="row">
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormName">Your Name:</label>
-                                <input maxLength="50" name = "yourname" type="text" class="form-control" id="name" placeholder="Nhập vào họ và tên của bạn...." pattern="[a-z,A-Z]{1,50}"><p class="alert-form-info"></p>
+                                <input maxLength="50" name = "yourname" type="text" class="form-control" id="name" placeholder="Enter your name...." pattern="{1,50}"><p class="alert-form-info"></p>
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormEmail">Email:</label>
-                                <input maxLength="50" name = "email" type="email" class="form-control" id="email" placeholder="Nhập vào email của bạn...."><p class="alert-form-info"></p>
+                                <input maxLength="50" name = "email" type="email" class="form-control" id="email" placeholder="Enter your email...."><p class="alert-form-info"></p>
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormTelephone">Phone Number:</label>
-                                <input maxLength="10" name = "tel" type="tel" class="form-control" id="tel" placeholder="Nhập vào số điện thoại của bạn...." pattern="[0-9]{10}"><p class="alert-form-info"></p>
+                                <input maxLength="10" name = "tel" type="tel" class="form-control" id="tel" placeholder="Enter your phone number...." pattern="[0-9]{10}"><p class="alert-form-info"></p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
                                 <label id="contactFormMessage">Message:</label>
-                                <textarea name="mess" class="form-control " rows="5" cols="75" id="mess" placeholder="Nhập vào mess của bạn...."></textarea><p class="alert-form-info"></p>
+                                <textarea name="mess" class="form-control " rows="5" cols="75" id="mess" placeholder="Enter your message...."></textarea><p class="alert-form-info"></p>
                             </div>
                         </div>
                         <div class="btn-toolbar form-group">
-                            <input type="submit" value="Send" class="btn btn-alt" onclick="alert('Thong tin cua ban da duoc luu!')"><p class="alert-form-info"></p>
+                            <input type="submit" value="Send" class="btn btn-alt"><p class="alert-form-info"></p>
                             <input type="reset" value="Clear" class="btn btn-info"><p class="alert-form-info"></p>
                         </div>
                     </div>
