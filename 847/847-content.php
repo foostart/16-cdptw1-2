@@ -19,7 +19,7 @@
                         <div class="row">
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormName">Your Name:</label>
-                                <input maxLength="50" name = "yourname" type="text" class="form-control" id="name" placeholder="Enter your name...." pattern="{1,50}"><p class="alert-form-info"></p>
+                                <input maxLength="50" name = "yourname" type="text" class="form-control" id="name" placeholder="Enter your name (1 - 50 characters)...." pattern="{0-9},{1,50}"><p class="alert-form-info"></p>
                             </div>
                             <div class="col-sm-4 form-group">
                                 <label id="contactFormEmail">Email:</label>

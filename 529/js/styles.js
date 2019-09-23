@@ -137,3 +137,19 @@ var screenReaderText = {"expand": "<span class=\"screen-reader-text\">expand chi
         }
     });
 })(jQuery); 
+
+$(document).ready(function() {
+        $(".nav-tabs li a").click(function(e) {
+            e.preventDefault();
+        });
+
+        $(".nav-tabs li").click(function() {
+            var tabid = $(this).find("a").attr("href");
+            $(".nav-tabs li,.portfolioFilter div.in").removeClass("image-scale"); // removing active class from tab
+            $(".in").hide(); // hiding open tab
+            $(tabid).show(); // show tab
+            $(this).addClass("image-scale"); //  adding active class to clicked tab
+
+        });
+
+    });

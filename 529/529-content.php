@@ -7,8 +7,7 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-<script language="JavaScript">
-</script>
+
 <div class="type_667 ">
     <div class="container column-wrapper-container">
         <div class="row">
@@ -20,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="portfolioFilter ">
                         <ul class="nav nav-tabs">
                             <li class="active">
-                                <a href="#0" class="btn-outline" >All</a>
+                                <a href="#0" class="btn-outline"> All</a>
                             </li> 
                             <li>
                                 <a href="#1" class="btn-outline1">Bars</a>
@@ -49,11 +48,11 @@ $url_path = str_replace('\\', '/', $url_path);
                         </ul>
                     </div>
 
-                    <div class="portfolioContainer " style=" overflow: hidden; height: auto; padding-right: 24px;">
-                        <div class="in active">
-                            <div class="col-md-3 col-sm-5">
+                    <div class="portfolioContainer " style=" overflow: hidden; height: auto; padding-right: 24px; display: block;">
+                        <div id="0" class="in active">
+                            <div  class="col-md-3 col-sm-5">
                                 <div class="isotope-item">
-                                    <div class="box image-scale">
+                                    <div id="01" class="box image-scale">
                                         <img  src="images/1.jpg" alt="" style="display: block;">
                                         <div class="caption scale-caption">
                                             <a href="#">
@@ -63,10 +62,9 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item">
-                                    <div class="box image-scale" >
+                                    <div id="2" class="box image-scale" >
                                         <img  src="images/2.jpg" alt="" style="display: block;">
                                         <div class="caption scale-caption">
                                             <a href="#">
@@ -115,6 +113,47 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-md-3 col-sm-5">
+                                <div class="isotope-item" >
+                                    <div class="box image-scale">
+                                        <img  src="images/6.jpg" alt="" style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Copper Base</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-5">
+                                <div class="isotope-item">
+                                    <div class="box image-scale">
+                                        <img src="images/7.jpg" alt=""  style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Food Service</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 col-sm-5">
+                                <div class="isotope-item">                                           
+                                    <div class="box image-scale">
+                                        <img src="images/8.jpg" alt=""  style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Steel Pipes</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
