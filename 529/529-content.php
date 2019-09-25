@@ -47,12 +47,11 @@ $url_path = str_replace('\\', '/', $url_path);
                             </li>
                         </ul>
                     </div>
-
                     <div class="portfolioContainer " style=" overflow: hidden; height: auto; padding-right: 24px; display: block;">
-                        <div id="0" class="in active">
+						<div id="0" class="in active" style="display:none;">
                             <div  class="col-md-3 col-sm-5">
                                 <div class="isotope-item">
-                                    <div id="01" class="box image-scale">
+                                    <div class="box image-scale">
                                         <img  src="images/1.jpg" alt="" style="display: block;">
                                         <div class="caption scale-caption">
                                             <a href="#">
@@ -64,7 +63,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item">
-                                    <div id="2" class="box image-scale" >
+                                    <div  class="box image-scale" >
                                         <img  src="images/2.jpg" alt="" style="display: block;">
                                         <div class="caption scale-caption">
                                             <a href="#">
@@ -74,7 +73,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item">
                                     <div class="box image-scale" >
@@ -87,7 +85,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item">
                                     <div class="box image-scale">
@@ -100,7 +97,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item" >
                                     <div class="box image-scale">
@@ -113,7 +109,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item" >
                                     <div class="box image-scale">
@@ -126,7 +121,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item">
                                     <div class="box image-scale">
@@ -139,7 +133,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </div>
                                 </div>
                             </div>
-
                             <div class="col-md-3 col-sm-5">
                                 <div class="isotope-item">                                           
                                     <div class="box image-scale">
@@ -153,9 +146,121 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-                </div>
+						
+						<div id="1" class="in">
+                            <div  class="col-md-3 col-sm-5">
+                                <div class="isotope-item">
+                                    <div  class="box image-scale">
+                                        <img  src="images/1.jpg" alt="" style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Bars</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div id="2" class="in">
+							<div class="col-md-3 col-sm-5">
+                                <div class="isotope-item">
+                                    <div  class="box image-scale" >
+                                        <img  src="images/2.jpg" alt="" style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Plates</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div id="3" class="in">
+							<div class="col-md-3 col-sm-5">
+                                <div class="isotope-item">
+                                    <div class="box image-scale" >
+                                        <img  src="images/3.jpg" alt="" style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Steel Rails</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div id="4" class="in">
+							<div class="col-md-3 col-sm-5">
+                                <div class="isotope-item">
+                                    <div class="box image-scale">
+                                        <img  src="images/4.jpg" alt="" style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Steel Forgings</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div id="5" class="in">
+							<div class="col-md-3 col-sm-5">
+                                <div class="isotope-item" >
+                                    <div class="box image-scale">
+                                        <img  src="images/5.jpg" alt="" style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Shipping Project</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div id="6" class="in">
+							<div class="col-md-3 col-sm-5">
+                                <div class="isotope-item" >
+                                    <div class="box image-scale">
+                                        <img  src="images/6.jpg" alt="" style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Copper Base</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div id="7" class="in">
+							<div class="col-md-3 col-sm-5">
+                                <div class="isotope-item">
+                                    <div class="box image-scale">
+                                        <img src="images/7.jpg" alt=""  style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Food Service</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<div id="8" class="in">
+							<div class="col-md-3 col-sm-5">
+                                <div class="isotope-item">                                           
+                                    <div class="box image-scale">
+                                        <img src="images/8.jpg" alt=""  style="display: block;">
+                                        <div class="caption scale-caption">
+                                            <a href="#">
+                                                <h1>Steel Pipes</h1>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
             </div>
         </div>
     </div>
