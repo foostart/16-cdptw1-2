@@ -141,7 +141,7 @@
                                                         <li><a href="#">Page: Dual Sidebar</a></li>
                                                     </ul>
                                                 </li>
-                                                <li class="col-sm-3">
+                                                <li class="col-sm-6">
                                                     <h4 class="cufon_headings">Interesting Stuff</h4>
                                                     <ul>
                                                         <li><a href="#">Archive/Sitemap Template</a></li>
