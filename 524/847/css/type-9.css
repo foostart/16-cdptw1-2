@@ -1,0 +1,36 @@
+.type-15 .border {
+  border: 2px solid #269abc;
+  border-radius: 4px;
+  margin: 10px 10px 10px 10px;
+}
+.type-15 .border .noidung {
+  margin-top: 10px;
+  color: #7f8496;
+}
+.type-15 .border .form-control {
+  padding: 6px;
+  background: #f5f7fe;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 4px;
+  border-color: #fff;
+  margin-bottom: 15px;
+}
+.type-15 .border .form-control:hover {
+  border-color: #4d7df0;
+}
+.type-15 .border .btn-alt {
+  margin-top: 10px;
+  color: #fff;
+  background: #f83c7b;
+}
+.type-15 .border .btn-info {
+  background: #fff;
+}
+.type-15 .border .btn:hover {
+  background: #FF00CC;
+  border-color: #FF00CC;
+}
+.type-15 .border .alert-form-info {
+  color: #000000;
+}

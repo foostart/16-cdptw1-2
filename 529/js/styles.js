@@ -136,7 +136,8 @@ var screenReaderText = {"expand": "<span class=\"screen-reader-text\">expand chi
             setTimeout(resizeAndScroll, 100 * i);
         }
     });
- $(document).ready(function() {
+	
+    $(document).ready(function() {
 
         $(".nav-tabs li a").click(function(e) {
             e.preventDefault();
