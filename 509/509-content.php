@@ -78,7 +78,7 @@
                                 <div class="collapse navbar-collapse js-navbar-collapse">
                                     <ul class="nav navbar-nav">
                                         <!--HOME-->
-                                        <li class="dropdown mega-dropdown">
+                                        <li class="dropdown">
                                             <a href="#" data-toggle="dropdown">Home <span class="caret"></span></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#"><i class="fa fa-caret-right"> Fade Slider</i></a></li>
