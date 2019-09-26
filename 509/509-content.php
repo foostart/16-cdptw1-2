@@ -1,27 +1,4 @@
-<!DOCTYPE html>
 
-<html>
-
-    <head>
-        <title>509</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="css/647.css" rel="stylesheet" type="text/css" />
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/647.less', 'css/647.css');
-        ?>
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="js/menu.js" type="text/javascript"></script>
-    </head>
-
-    <body>
         <div class="type-647">
             <div class="container">
                 <div class="header">
@@ -37,7 +14,7 @@
                                     <form action="#" id="searchform" method="get">
                                         <div>
                                             <input type="submit" value="" id="searchsubmit">
-                                            <input type="text" id="s" name="s" value="search site">
+                                            <input type="text" id="s" name="s" value="Search...">
                                         </div>
                                     </form>
                                     <ul class="social_bookmarks">
@@ -78,10 +55,11 @@
                                 <div class="collapse navbar-collapse js-navbar-collapse">
                                     <ul class="nav navbar-nav">
                                         <!--HOME-->
-                                        <li class="dropdown">
+                                        <li class="dropdown mega-dropdown">
                                             <a href="#" data-toggle="dropdown">Home <span class="caret"></span></a>
                                             <ul class="dropdown-menu">
                                                 <li><a href="#"><i class="fa fa-caret-right"> Fade Slider</i></a></li>
+                                               
                                             </ul>
                                         </li>
                                         <!--BLOG-->
@@ -89,7 +67,7 @@
                                             <a href="#" data-toggle="dropdown">Blog<span class="caret"></span></a>
                                             <ul class="dropdown-menu blog">
                                                 <li><a href="#"><i class="fa fa-caret-right"> Blog (default) </i></a></li>
-
+                                                
                                             </ul>
                                         </li>
                                         <!--SHOP-->
@@ -114,7 +92,7 @@
                                                         </span>
                                                     </a>
                                                 </li>
-                                               
+
                                                 <li class="avia_mega_hr"></li>
                                                 <li class="col-sm-6 ">
                                                     <h4 class="cufon_headings">Shop</h4>
@@ -138,13 +116,12 @@
                                                     <h4 class="cufon_headings">Page Templates</h4>
                                                     <ul>
                                                         <li><a href="#">Sample Page</a></li>
-                                                        <li><a href="#">Page: Dual Sidebar</a></li>
                                                     </ul>
                                                 </li>
                                                 <li class="col-sm-6">
                                                     <h4 class="cufon_headings">Interesting Stuff</h4>
                                                     <ul>
-                                                        <li><a href="#">Archive/Sitemap Template</a></li>
+                                                        <li><a href="#">Archive/Sitemap Template</a></li>    
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -168,6 +145,3 @@
                 </div>
             </div>
         </div>
-    </body>
-
-</html>
