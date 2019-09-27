@@ -1,4 +1,4 @@
-.type-518 .row .btn-menu {
+.type-518 .btn-menu {
   display: none;
 }
 .type-518 a {
@@ -9,7 +9,7 @@
 }
 .type-518 .navbar-header:hover a {
   text-decoration: none;
-  color: ;
+  color: #3ec2df;
 }
 .type-518 li>a:focus,
 .type-518 li>a:hover {
