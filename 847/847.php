@@ -12,10 +12,8 @@
         $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);      
         require_once($dir_block.'/libs/lessc.inc.php');
     }
-    
     $less = new lessc;
      $less->compileFile('./less/type-15.less', 'css/type-9.css');
-    
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,12 +23,12 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet">       
         <link href="<?php echo $url_path ?>/css/type-15.css" rel="stylesheet" type="text/css" />
+		<script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/type-1.js"></script>
         <!--Ket Noi File Less -->
     </head>
 
     <body>
-		<form action="847.php" method="post">
         <?php include $dir_block.'/847-content.php'; ?>
-		</form>
     </body>
 </html>

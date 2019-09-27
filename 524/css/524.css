@@ -13,6 +13,8 @@
   list-style: disc;
   margin: 0px;
   padding: 0px;
+  position: relative;
+  display: inline-block;
 }
 .type_524 .menu-container-wrapper #tp-top-bar .social-icon-ft li {
   float: left;

@@ -1,29 +1,11 @@
-<?php
 
-	$url_host = 'http://'.$_SERVER['HTTP_HOST'];
-	$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-	$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-	
-	preg_match_all($pattern_uri, __DIR__, $matches);
-	$url_path = $url_host . $matches[1][0];
-	$url_path = str_replace('\\', '/', $url_path);
-
-	if (!class_exists('lessc')) {
-		$dir_block = dirname($_SERVER['SCRIPT_FILENAME']);		
-		require_once($dir_block.'/libs/lessc.inc.php');
-	}
-	
-	$less = new lessc;
-	$less->compileFile('less/524.less', 'css/524.css');
-	
-?>
 <!-- Header-->
 <div class="type_524">
     <div class="container menu-container-wrapper">
          <div class="row">
             <div id="tp-top-bar" class="vc_row tp-top-bar" >
                 <div class="container">
-                    <div class="col-md-4 col-sm-4">
+                     <div class="col-md-4 col-sm-4">
                         <ul class="social-icon-ft pull-">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
