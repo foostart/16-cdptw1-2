@@ -1,14 +1,3 @@
-<?php
-$url_host = 'http://' . $_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
-
-
 <div class="type-518">  
     <div class="container">
         <div class="row">
@@ -27,28 +16,32 @@ $url_path = str_replace('\\', '/', $url_path);
                         </li>
                         <li class="dropdown mega-dropdown">
                             <a href="#"  >Buy me! </a>		
-                        </li>
-                        <li class="dropdown mega-dropdown">
-                            <a href="#" >Welcome msg! </a>
-                        </li>                                                                                    
+                        </li>                                                                                   
                     </ul>
                     <!-- menu left-->
                 </div>
                 <div class="col-md-6 col-sm-4 col-xs-4">
                     <ul class="nav navbar-nav navbar-right">
                         <!-- menu right-->
-                        <select>
-							<option>Language</option>
-							<option>English </option>
-							<option>German</option>
-						 </select>
+                    <li class="dropdown">
+                        <button class="dropbtn">Language
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">English</a>
+                        </div>
+                    </li> 
+                
                         <!-- menu right-->
-                        <select>
-							<option>Currency:</option>
-							<option>BRL</option>
-							<option>GBP</option>
-						 </select>
-                    </ul>
+                        <!-- DropDown-->
+					<div class="dropdown">
+						<button class="dropbtn">Currency:
+							<i class="fa fa-caret-down"></i>
+						</button>
+						<div class="dropdown-content">
+							<a href="#">BRL</a>
+						</div>
+					</div>
                 </div>
             </div>
             <div class="detail">
@@ -69,15 +62,12 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </form>
                             </div>
                         </div>
-                        <div class="col-md-4 col-sm-6 col-xs-4">
+						<div class="col-md-4 col-sm-6 col-xs-4">
                             <div class="topnav" id="myTopnav">
-                                <a href="#home" class="active">Home</a>
-                                <a href="#news">News</a>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Dropdown 
-                                    </button>
-                                </div> 
-                                <a href="#about">About</a>
+                                <a href="#" class="active">Home</a>
+                                <a href="#">News</a>
+								<a href="#">DropDown</a>
+                                <a href="#">About</a>
                                 <a href="#" class="icon" onclick="myFunction()">&#9776;</a>
                             </div>
                         </div>

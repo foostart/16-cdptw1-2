@@ -63,7 +63,7 @@
                                             </ul>
                                         </li>
                                         <!--BLOG-->
-                                        <li class="dropdown ">
+                                        <li class="dropdown">
                                             <a href="#" data-toggle="dropdown">Blog<span class="caret"></span></a>
                                             <ul class="dropdown-menu blog">
                                                 <li><a href="#"><i class="fa fa-caret-right"> Blog (default) </i></a></li>
