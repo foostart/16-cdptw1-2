@@ -250,11 +250,7 @@
     float: left;
   }
 }
-@media (max-width: 760px) and (min-width: 470px) {
-  .type-518 .navbar-nav,
-  .type-518 .navbar-header {
-    display: none;
-  }
+@media (max-width: 990px) and (min-width: 470px) {
   .type-518 .btn-menu {
     display: block;
     margin-top: 28px;
@@ -351,6 +347,9 @@
     position: absolute;
     right: 0;
     top: 0;
+  }
+  .type-518 .hotline {
+    padding-top: 27px;
   }
   .type-518 .topnav.responsive a {
     float: none;

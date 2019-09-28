@@ -2,11 +2,17 @@
     <div class="container">
         <div class="row">
             <div class=" navbar-collapse" >
-                <div class="col-md-6 col-sm-8 col-xs-8">
+                <div class="col-md-2 col-sm-3 col-xs-5">
                     <!-- menu left-->
                     <div class="navbar-header">
                         <div class="hotline"><i class="fa fa-phone">Call <a  href="#" >+001 555 801</a></i></div>
                     </div>
+                    
+                    <!-- menu left-->
+                </div>
+                <div class="col-md-4 col-sm-5 col-xs-7">
+                    <!-- menu left-->
+                    
                     <ul class="nav navbar-nav navbar-left list1">
                         <li class="dropdown mega-dropdown">
                             <a href="#" >All demos</a>		
@@ -34,14 +40,13 @@
                 
                         <!-- menu right-->
                         <!-- DropDown-->
-					<div class="dropdown">
-						<button class="dropbtn">Currency:
-							<i class="fa fa-caret-down"></i>
-						</button>
-						<div class="dropdown-content">
-							<a href="#">BRL</a>
-						</div>
-					</div>
+                    <div class="dropdown">
+			<button class="dropbtn">Currency:
+			<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content">
+			<a href="#">BRL</a>
+                    </div>
                 </div>
             </div>
             <div class="detail">

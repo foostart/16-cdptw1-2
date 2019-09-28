@@ -5,7 +5,7 @@
          <div class="row">
             <div id="tp-top-bar" class="vc_row tp-top-bar" >
                 <div class="container">
-                     <div class="col-md-4 col-sm-4">
+                     <div class="col-md-3 col-sm-3 col-xs-5">
                         <ul class="social-icon-ft pull-">
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -14,11 +14,18 @@
                             <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-md-8 col-sm-8">
+                    <div class="col-md-4 col-sm-4 col-xs-7">
                         <div class=" wpb_content_element text-right">
                             <ul class="links">
-                                <li><a class="highlight" href="#">24/7 Support | +1 959 603 6035</a></li>
-                                <li><a href="#">Helps</a></li>
+                                <li><a class="highlight" href="#">24/7 Support | +959 603 6035</a></li>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-5 col-xs-12">
+                        <div class=" wpb_content_element text-right">
+                            <ul class="links">
+                              <li><a href="#">Helps</a></li>
                                 <li><a href="#">FAQ’s</a></li>
                                 <li><a href="#">Sitemap</a></li>
                                 <li><a href="#">Change Location</a></li>
