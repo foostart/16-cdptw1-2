@@ -37,6 +37,7 @@
 }
 .type_524 .menu-container-wrapper .wpb_content_element {
   margin-bottom: 35px;
+  float: right;
 }
 .type_524 .menu-container-wrapper .wpb_content_element .text-right {
   text-align: right;
@@ -257,9 +258,6 @@
   .type_524 .menu-container-wrapper div#tp-top-bar {
     padding-bottom: 0px;
   }
-  .type_524 .menu-container-wrapper div#tp-top-bar .col-sm-4 {
-    float: none;
-  }
   .type_524 .menu-container-wrapper div#tp-top-bar .col-sm-8 {
     width: 100%;
     float: none;
@@ -268,9 +266,6 @@
 @media (max-width: 767px) and (min-width: 734px) {
   .type_524 .menu-container-wrapper div#tp-top-bar {
     padding-bottom: 0px;
-  }
-  .type_524 .menu-container-wrapper div#tp-top-bar .col-sm-4 {
-    float: none;
   }
   .type_524 .menu-container-wrapper div#tp-top-bar .col-sm-4 {
     min-height: 0px;

@@ -79,44 +79,35 @@
                                                 <a href="#" class=" dropdown-toggle">Company Profile</a>
                                                 </a>
                                                 
-                                            </li>
-                                            <li class=" menu-item-has-children">
-                                                <a href="#" class=" dropdown-toggle">Product</a> 
-                                                </a>
-                                               
-                                            </li>
-                                            <li class=" menu-item-has-children">
-                                                <a href="#" class=" dropdown-toggle">News</a>
-                                                <a class="caret-click" data-toggle="dropdown"> 
-                                                    <span class="caret"></span>
-                                                </a>
-                                                <ul class="dropdown-menu">
-                                                    <li class=" menu-item-has-children">
-                                                        <a href="#" class=" dropdown-toggle">Blog List</a>
-                                                        <a class="caret-click" data-toggle="dropdown"> 
-                                                            <span class="caret"></span>
-                                                        </a>
-                                                        <ul class="dropdown-menu">
-                                                            <li>
-                                                                <a href="#">With Right Sidebar</a>
-                                                                <a class="caret-click"></a>
-                                                            </li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class=" menu-item-has-children">
-                                                <a href="#" class=" dropdown-toggle">Page</a>
-                                                </a>
-                                            </li>
-                                            <li class=" menu-item-has-children">
-                                                <a href="#" class=" dropdown-toggle">Service</a>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Contact Us</a>
-                                                <a class="caret-click"></a>
-                                            </li>
+												</li>
+												<li class=" menu-item-has-children">
+													<a href="#" class=" dropdown-toggle">Product</a> 
+													</a>	   
+												</li>
+												<li class=" menu-item-has-children">
+													<a href="#" class=" dropdown-toggle">News</a>
+													<a class="caret-click" data-toggle="dropdown"> 
+														<span class="caret"></span>
+													</a>
+													<ul class="dropdown-menu">
+														<li class=" menu-item-has-children">
+															<a href="#" class=" dropdown-toggle">Blog List</a>
+															<a class="caret-click" data-toggle="dropdown"> 
+																<span class="caret"></span>
+															</a>
+															<ul class="dropdown-menu">
+																<li>
+																	<a href="#">With Right Sidebar</a>
+																	<a class="caret-click"></a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+												<li class=" menu-item-has-children">
+													<a href="#" class=" dropdown-toggle">Page</a>
+													</a>
+												</li>
                                             </ul>
                                         </div>
                                     </div>
